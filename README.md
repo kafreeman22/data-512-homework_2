@@ -52,26 +52,26 @@ I was most suprised by the quantity of articles per capita of Japan due to it's 
 The theory I have regarding some of the suprising results found is that normalizing by capita shot places with a very small population and *normal* amount of articles much higher than those with a larger population. Secondly, as touched upon previously, my primary theory behind quality and quantity lies behind country affluence and wealth. Furthermore, as Wikipedia is a U.S. founded site, it makes sense that it would have a bias towards places more culturaly similear to the U.S. such as regions within Europe. This theory is backed by the lack of quantity and quality present for much of Africa and Asia. 
 
 ### Q/A
-**What biases did you expect to find in the data (before you started working with it), and why?**
+### What biases did you expect to find in the data (before you started working with it), and why?
 
 I expected to see a bias leaning towards Europe primarily for the reasons mentioned above. Our exercise towards the end of our last class only bolstered this expectation seeing the clear bias Wikipedia has towards the United States. 
 
-**What might your results suggest about (English) Wikipedia as a data source?**
+### What might your results suggest about (English) Wikipedia as a data source?
 
 These results seem to indicate that Wikipedia is a fine resource for United States and European history; however, is not the most reliable regarding the rest of the world.
 
-**What might your results suggest about the internet and global society in general?**
+### What might your results suggest about the internet and global society in general?
 
 Extrapolating on my findings, this would indicate that the internet/global society has a bias leaning towards the United States and Europe. This makes sense regarding the affluent media of both finding it's way across the globe. I must note; however, this is purly based on my findings specifically regarding Wikipedia articles. This bias most likely wildly fluctuates depending on the website used and its country of origin.
 
-**Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?**
+### Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might create biased or misleading results, due to the inherent gaps and limitations of the data?
 
 This dataset would do an inadaquete job for the trained task for the regions/countries ranking lower in quality and quantity. This is reminiscent of our latest readings that describe the pitfalls of a dataset with limited scope for a group causing unintended issues such as racism and bias.
 
-**Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?**
+### Can you think of a realistic data science research situation where using these data (to train a model, perform a hypothesis-driven research, or make business decisions) might still be appropriate and useful, despite its inherent limitations and biases?
 
 I would say that utilizing this dataset could be appropriate for an audience limited to those within Europe and the United States as well as a specific task geared towards those regions as well. 
 
-**How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?**
+### How might a researcher supplement or transform this dataset to potentially correct for the limitations/biases you observed?
 
 The most obvious solution I can think of is suplementing this dataset with other online encylipeidas with different countries of origins such to tip the balance of bias present.
