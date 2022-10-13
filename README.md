@@ -5,7 +5,7 @@
 ## Project Description
 The goal of this project is to analyze bias present within Wikipedia articles and associate it with region, country, and population. The primary data science tasks present in this repo are as follows
 1. Pulling data from Wikipedia using the MediaWiki API ([documentation](https://www.mediawiki.org/wiki/API:Main_page), [endpoint](https://www.mediawiki.org/w/api.php), [terms of use](https://foundation.wikimedia.org/wiki/Terms_of_Use/en), [license](https://www.mediawiki.org/wiki/Special:Version/License/MediaWiki)) on politician list to find revision id.
-2. Pulling data from Wikipedia using ORES (part of MediaWiki) to find predicted article quality labels from previously pulled revision ids.
+2. Pulling data from Wikipedia using [ORES](https://www.mediawiki.org/wiki/ORES) (part of MediaWiki) to find predicted article quality labels from previously pulled revision ids.
 3. Merge population_by_country_2022.csv and politicians_by_country.SEPT.2022.csv and associate 'revision id' and 'article_quality'. Drop rows that resulted in error within API
 4. Find quality articles per capita and quantity articles per capita for both region and country. Drop countries that resulted in calculation errors such as NaN or *inf*
 5. Sort countries and regions by quality articles per capita and quantity articles per capita.
